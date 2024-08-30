@@ -4,6 +4,8 @@ project:
     package:
         name: Mobilization-Funding-Flinks-Data-Ingestion
         api_version: '61.0'
+    dependencies:
+        - github: https://github.com/Nimba-Solutions/Mobilization-Funding
     git:
         default_branch: 'main'
         prefix_feature: 'feature/'
